@@ -23,7 +23,7 @@ public class EmailValidator implements ConstraintValidator<Email, String> {
                 "*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)$")) {
             return true;
         }
-        context.buildConstraintViolationWithTemplate( "email must be 6-50 characters long" )
+        context.buildConstraintViolationWithTemplate( "email must be 6-50 characters long and match the pattern: example@mail.com" )
                 .addConstraintViolation().disableDefaultConstraintViolation();
         return false;
     }
