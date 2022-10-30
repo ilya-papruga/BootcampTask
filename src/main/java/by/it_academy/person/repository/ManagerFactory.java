@@ -1,4 +1,4 @@
-package by.it_academy.person.service;
+package by.it_academy.person.repository;
 
 import org.springframework.stereotype.Component;
 

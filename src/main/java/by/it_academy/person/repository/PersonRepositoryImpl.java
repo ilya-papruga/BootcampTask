@@ -2,7 +2,6 @@ package by.it_academy.person.repository;
 
 import by.it_academy.person.entity.Person;
 import by.it_academy.person.repository.api.PersonRepository;
-import by.it_academy.person.service.ManagerFactory;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
